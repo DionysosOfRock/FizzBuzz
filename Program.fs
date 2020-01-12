@@ -1,7 +1,7 @@
 ﻿// FizzBuzz challenge
 // Print a list from 1 to 100 where every number divisible by 3 and 5 is replaced by 'Fizz' and 'Buzz' respectively, and if a multiple of of both then prints 'FizzBuzz'
 
-let list = [1 .. 100]
+let list = [1 .. 100] // small change
 
 let FizzBuzz = function
     | a when a % 3 = 0 & a % 5 = 0 -> printfn "FizzBuzz" //Some way to inject FizzBuzz at these points
